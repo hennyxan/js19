@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form class="popup__form" name="form1">
+        <div class="form__content">
+            <div class="content__wrap">
+                <input class="form__input-modal form__input_width field _req" type="text" placeholder="Имя "
+                    title="Введите имя" required />
+            </div>
+            <div class="content__wrap">
+                <input class="form__input-modal form__input_width field _req" type="tel" placeholder="Телефон "
+                    name="form_phone-number" title="Введите номер телефона" required />
+            </div>
+        </div>
+        <div class="content__wrap">
+            <input class="form__input-modal field _req email" type="email" placeholder="E-mail "
+                title="Введите корректно поле email" required />
+        </div>
+        <input class="form__input-modal" type="text" placeholder="Комментарий" />
+        <div class="form__checkbox">
+            <label><input type="checkbox" required title="Поставьте галку" checked> Я согласен (на) с обработкой <a
+                    href="#">персональных данных</a></label>
+        </div>
+        <button type="submit" name="btnSubmit" class="button popup__btn-post disabled" disabled>
+            Оставить заявку
+        </button>
+    </form>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
